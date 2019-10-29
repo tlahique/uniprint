@@ -9,9 +9,9 @@ var map = L.map('map');
 
 //'http://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png'
 
-L.tileLayer('https://esri.maps.arcgis.com/apps/View/index.html?appid=d6b18a2e774c4959ba855f6ac90952a2', {
-	attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a>',
-	maxZoom: 18 //not working
+L.tileLayer('https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png', {
+	maxZoom: 18,
+	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
 map.setView(new L.LatLng(25.72650, -100.31180), 16);
