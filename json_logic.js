@@ -198,10 +198,10 @@ function onClick(e) {
 }
 
 $('#faculty-choice').select2({
-    placeholder: "Selecciona2" //SAM CHANGE, changed text to Selecciona2
+    placeholder: "Selecciona" //SAM CHANGE, changed text to Selecciona
 });
 $('#class-choice').select2({
-    placeholder: "Selecciona2" //SAM CHANGE, changed text to Selecciona2
+    placeholder: "Selecciona" //SAM CHANGE, changed text to Selecciona
 });
 
 // https://stackoverflow.com/questions/37478727/how-can-i-make-a-browser-display-all-datalist-options-when-a-default-value-is-se
