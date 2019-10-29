@@ -9,7 +9,7 @@ var map = L.map('map');
 
 //'http://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png'
 
-L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png', {
+L.tileLayer('https://esri.maps.arcgis.com/apps/View/index.html?appid=d6b18a2e774c4959ba855f6ac90952a2', {
 	attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a>',
 	maxZoom: 18 //not working
 }).addTo(map);
