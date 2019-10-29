@@ -50,18 +50,18 @@ request.onreadystatechange = function (response) {
             }
 
             // Update the placeholder text.
-            facultyInput.placeholder = "Selecciona una Facultad";
-            classInput.placeholder = "Selecciona una Categoria";
+            facultyInput.placeholder = "Selecciona";
+            classInput.placeholder = "Selecciona";
         } else {
             // An error occured :(
-            facultyInput.placeholder = "Couldn't load datalist options :(";
+            facultyInput.placeholder = "Error :(";
         }
     }
 };
 
 
 // Update the placeholder text.
-facultyInput.placeholder = "cargando opciones";
+facultyInput.placeholder = "Cargando";
 
 // Set up and make the request.
 request.open('GET', 'https://raw.githubusercontent.com/tlahique/uniprint/master/data.json', true);
