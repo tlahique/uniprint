@@ -165,13 +165,11 @@ function json_create_markers(json_array) {
         var jsonIcon = marker[i].icon
 
         // list of colors for icons
-        if (marker[i].categoria == 'Ventas') {
+        if (marker[i].categoria == 'Papelería') {
             var jsonColor = 'orange'
-        } else if (marker[i].categoria == 'Comidas') {
+        } else if (marker[i].categoria == 'Imprenta') {
             var jsonColor = 'red'
         } else if (marker[i].categoria == 'Facultad') { //SAM CHANGE, changed Bebederos to Facultad
-            var jsonColor = 'blue'
-        } else if (marker[i].categoria == 'Baños') {
             var jsonColor = 'blue'
         }
 
