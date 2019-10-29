@@ -50,21 +50,21 @@ request.onreadystatechange = function (response) {
             }
 
             // Update the placeholder text.
-            facultyInput.placeholder = "Selecciona";
-            classInput.placeholder = "Selecciona";
+            facultyInput.placeholder = "Selecciona una Facultad";
+            classInput.placeholder = "Selecciona una Categoria";
         } else {
             // An error occured :(
-            facultyInput.placeholder = "Error :(";
+            facultyInput.placeholder = "Couldn't load datalist options :(";
         }
     }
 };
 
 
 // Update the placeholder text.
-facultyInput.placeholder = "Cargando";
+facultyInput.placeholder = "cargando opciones";
 
 // Set up and make the request.
-request.open('GET', 'https://raw.githubusercontent.com/tlahique/uniprint/master/data.json', true);
+request.open('GET', 'https://raw.githubusercontent.com/BrandonZoft/uniguide/master/data.json', true);
 request.send();
 
 function searchTags() {
@@ -94,7 +94,7 @@ function search() {
     // only work for empty forms, what if user types 'ssss'.
     if (facultad == '' || categoria == '') {
         
-    } else if (facultad == "Todas") {
+    } else if (facultad == "Ciudad Universitaria") {
         for (i in window.jsonOptions.Universidad.Facultades) {
             for (k in window.jsonOptions.Universidad.Facultades[i].marcador) {
                 if (categoria == 'Todo') {
@@ -113,7 +113,7 @@ function search() {
     else {
         for (i in window.jsonOptions.Universidad.Facultades) {
             if (window.jsonOptions.Universidad.Facultades[i].nombre == facultad) {
-                if (categoria == 'Todos') {
+                if (categoria == 'Todo') {
                     for (k in window.jsonOptions.Universidad.Facultades[i].marcador) {
                         loopIndex = [i, k]
                         ikArray.push(loopIndex)
@@ -155,7 +155,7 @@ function json_create_markers(json_array) {
         // https://gis.stackexchange.com/questions/261028/dynamically-create-leaflet-popup-via-javascript-object
         
         let nombre = "<h3>" + marker[i].nombre + "</h3>"
-        //let imagen = '<img src="https://www.fime.me/members/dr-freud/albums/varios/2969-el-prometido-starbucks-version-fimena.jpg" class="img-fluid">'
+        let imagen = '<img src="https://www.fime.me/members/dr-freud/albums/varios/2969-el-prometido-starbucks-version-fimena.jpg" class="img-fluid">'
         let descripcion = marker[i].descripcion
         let info = nombre + imagen + descripcion
 
@@ -200,10 +200,10 @@ function onClick(e) {
 }
 
 $('#faculty-choice').select2({
-    placeholder: "Selecciona"
+    placeholder: "Seleccione un lugar"
 });
 $('#class-choice').select2({
-    placeholder: "Selecciona"
+    placeholder: "Seleccione una categoria"
 });
 
 // https://stackoverflow.com/questions/37478727/how-can-i-make-a-browser-display-all-datalist-options-when-a-default-value-is-se
