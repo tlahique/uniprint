@@ -1,159 +1,82 @@
-{
-  "Universidad": {
-    "nombre": "Universidad Autonoma de Nuevo Leon",
-    "Facultades": [
-      {
-        "nombre": "Facultad de Ingenieria Mecanica y Electrica",
-        "abrev": "FIME",
-        "descripcion": "La Facultad de Ingeniería Mecánica y Eléctrica (FIME) es una Institución educativa de nivel superior y pertenece a la Universidad Autónoma de Nuevo León.",
-        "coordenadas": "25.72536, -100.31346",
-        "marcador": [
-          {
-            "nombre": "Cafeteria FIME",
-            "descripcion": "La cafeteria oficial de FIME.",
-            "categoria": "Comidas",
-            "coordenadas": "25.72565, -100.31373",
-            "tags": "comidas, cafeteria, burritos, pollo, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas",
-            "icon": "utensils"
-          },
-          {
-            "nombre": "Papeleria FIME",
-            "descripcion": "Venta de utensilios escolares universitarios.",
-            "categoria": "Ventas",
-            "coordenadas": "25.72549, -100.31343",
-            "tags": "copias, papeleria, utensilios, enmicado, engargolado, impresiones",
-            "icon": "paperclip"
-          },
-          {
-            "nombre": "Bebedero ",
-            "descripcion": "Bebedero del edificio 4 de FIME, cuenta con refill de agua.",
-            "categoria": "Bebederos",
-            "coordenadas": "25.72635,-100.31344",
-            "tags": "agua, refill, bebederos",
-            "icon": "tint"
-          },
-          {
-            "nombre": "Bebedero",
-            "descripcion": "Bebedero detras del edificio 4 de FIME, cuenta con refill de agua.",
-            "categoria": "Bebederos",
-            "coordenadas": "25.72616,-100.31305",
-            "tags": "agua, refill, bebederos",
-            "icon": "tint"
-          },
-          {
-            "nombre": "Bebedero",
-            "descripcion": "Bebedero a lado del edificio 3 de FIME.",
-            "categoria": "Bebederos",
-            "coordenadas": "25.72595,-100.31334",
-            "tags": "agua, bebedero, bebederos",
-            "icon": "tint"
-          },
-          {
-            "nombre": "Baño",
-            "descripcion": "Baños dentro del edificio 4 de FIME.",
-            "categoria": "Baños",
-            "coordenadas": "25.72624,-100.31316",
-            "tags": "lavabos, jabon, baños",
-            "icon": "restroom"
-          },
-          {
-            "nombre": "Baño",
-            "descripcion": "Dos baños dentro de la biblioteca de FIME, primer y tercer piso.",
-            "categoria": "Baños",
-            "coordenadas": "25.72622,-100.31377",
-            "tags": "lavabos, jabon, baños",
-            "icon": "restroom"
-          },
-          {
-            "nombre": "Baño",
-            "descripcion": "Baños dentro del edificio 6 de FIME en el segundo piso.",
-            "categoria": "Baños",
-            "coordenadas": "25.72597,-100.31392",
-            "tags": "lavabos, jabon, baños",
-            "icon": "restroom"
-          },
-          {
-            "nombre": "Baño",
-            "descripcion": "Baños en el edificio 1 de FIME, primer piso para hombres, segundo piso para mujeres.",
-            "categoria": "Baños",
-            "coordenadas": "25.72524,-100.31333",
-            "tags": "lavabos, jabon, baños",
-            "icon": "restroom"
-          },
-          {
-            "nombre": "Baño",
-            "descripcion": "Baños en el edificio 2 de FIME, primer piso de hombres, segundo piso para mujeres.",
-            "categoria": "Baños",
-            "coordenadas": "25.72524,-100.31333",
-            "tags": "lavabos, jabon, baños",
-            "icon": "restroom"
-          },
-          {
-            "nombre": "Baño",
-            "descripcion": "Baños en el edificio 3 de FIME, primer piso de hombres (entrada por HUBNATURA), segundo piso para mujeres, tercer piso para hombres.",
-            "categoria": "Baños",
-            "coordenadas": "25.72600,-100.31328",
-            "tags": "lavabos, jabon, baños",
-            "icon": "restroom"
-          },
-          {
-            "nombre": "Baño",
-            "descripcion": "Baños en el edificio 9 de FIME, segundo piso de mujeres, tercer piso para hombres.",
-            "categoria": "Baños",
-            "coordenadas": "25.72600,-100.31328",
-            "tags": "lavabos, jabon, baños",
-            "icon": "restroom"
-          }
-        ]
-      },
-      {
-        "nombre": "Facultad de Arquitectura",
-        "abrev": "FARQ",
-        "descripcion": "La Facultad de Ingeniería Mecánica y Eléctrica (FIME) es una Institución educativa de nivel superior y pertenece a la Universidad Autónoma de Nuevo León.",
-        "coordenadas": "25.72516, -100.31200",
-        "marcador": [
-          {
-            "nombre": "Cafeteria FARQ",
-            "descripcion": "La cafeteria oficial de FARQ.",
-            "categoria": "Comidas",
-            "coordenadas": "25.72544, -100.31118",
-            "tags": "comidas, cafeteria, burritos, pollo, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas",
-            "icon": "utensils"
-          },
-          {
-            "nombre": "Papeleria FARQ",
-            "descripcion": "Venta de utensilios escolares universitarios.",
-            "categoria": "Ventas",
-            "coordenadas": "25.72564, -100.31193",
-            "tags": "copias, papeleria, utensilios, enmicado, engargolado, impresiones",
-            "icon": "paperclip"
-          }
-        ]
-      },
-      {
-        "nombre": "Facultad de Contaduría Pública y Administración",
-        "abrev": "FACPYA",
-        "descripcion": "La Facultad de Contaduría Pública y Administración (FACPYA) es una Institución educativa de nivel superior y pertenece a la Universidad Autónoma de Nuevo León.",
-        "coordenadas": "25.72728, -100.30913",
-        "marcador": [
-          {
-            "nombre": "Cafeteria FACPYA",
-            "descripcion": "La cafeteria oficial de FACPYA.",
-            "categoria": "Comidas",
-            "coordenadas": "25.72760, -100.30955",
-            "tags": "comidas, cafeteria, burritos, pollo, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas",
-            "icon": "utensils"
-          },
-          {
-            "nombre": "Papeleria FACPYA",
-            "descripcion": "Venta de utensilios escolares universitarios.",
-            "categoria": "Ventas",
-            "coordenadas": "25.72774, -100.30922",
-            "tags": "copias, papeleria, utensilios, enmicado, engargolado, impresiones",
-            "icon": "paperclip"
-          }
-        ]
-      }
-    ]
-  }
-}
+{"Universidad": {
+	"nombre": "Universidad Autonoma de Nuevo Leon",
+	"Facultades": [{
+		"nombre": "FIME",
+		"coordenadas": "25.725063, -100.313408",
+		"marcador": [
+			{
+				"nombre": "Facultad de Ingeniería Mecánica y Eléctrica",
+				"descripcion": "La Facultad de Ingeniería Mecánica y Eléctrica (FIME) es una Institución educativa de nivel superior y pertenece a la Universidad Autónoma de Nuevo León.",
+				"categoria": "Todos",
+				"coordenadas": "25.725063, -100.313408",
+				"icon": ""
+			},{
+				"nombre": "Cafeteria FIME",
+				"descripcion": "La cafeteria oficial de FIME.",
+				"categoria": "Comidas",
+				"coordenadas": "25.72565, -100.31373",
+				"tags": "comidas, cafeteria, burritos, pollo, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas",
+				"icon": "utensils"
+			},{
+				"nombre": "Papeleria FIME",
+				"descripcion": "Venta de utensilios escolares universitarios.",
+				"categoria": "Ventas",
+				"coordenadas": "25.72549, -100.31343",
+				"tags": "copias, papeleria, utensilios, enmicado, engargolado, impresiones",
+				"icon": "paperclip"
+			}
+		]
+	},{
+		"nombre": "FARQ",
+		"coordenadas": "25.72516, -100.31200",
+		"marcador": [
+			{
+				"nombre": "Facultad de Arquitectura",
+				"descripcion": "La Facultad de Arquitectura (FARQ) es una Institución educativa de nivel superior y pertenece a la Universidad Autónoma de Nuevo León.",
+				"categoria": "Todos",
+				"coordenadas": "25.72516, -100.31200",
+				"icon": ""
+			},{
+				"nombre": "Cafeteria FARQ",
+				"descripcion": "La cafeteria oficial de FARQ.",
+				"categoria": "Comidas",
+				"coordenadas": "25.72544, -100.31118",
+				"tags": "comidas, cafeteria, burritos, pollo, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas",
+				"icon": "utensils"
+			},{
+				"nombre": "Papeleria FARQ",
+				"descripcion": "Venta de utensilios escolares universitarios.",
+				"categoria": "Ventas",
+				"coordenadas": "25.72564, -100.31193",
+				"tags": "copias, papeleria, utensilios, enmicado, engargolado, impresiones",
+				"icon": "paperclip"
+			}
+		]
+	},{
+		"nombre": "FACPYA",
+		"coordenadas": "25.72728, -100.30913",
+		"marcador": [
+			{
+				"nombre": "Facultad de Contaduría Pública y Administración",
+				"descripcion": "La Facultad de Contaduría Pública y Administración (FACPYA) es una Institución educativa de nivel superior y pertenece a la Universidad Autónoma de Nuevo León.",
+				"categoria": "Todos",
+				"coordenadas": "25.72728, -100.30913",
+				"icon": ""
+			},{
+				"nombre": "Cafeteria FACPYA",
+				"descripcion": "La cafeteria oficial de FACPYA.",
+				"categoria": "Comidas",
+				"coordenadas": "25.72760, -100.30955",
+				"tags": "comidas, cafeteria, burritos, pollo, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas",
+				"icon": "utensils"
+			},{
+				"nombre": "Papeleria FACPYA",
+				"descripcion": "Venta de utensilios escolares universitarios.",
+				"categoria": "Ventas",
+				"coordenadas": "25.72774, -100.30922",
+				"tags": "copias, papeleria, utensilios, enmicado, engargolado, impresiones",
+				"icon": "paperclip"
+			}
+		]
+	}]
+}}
