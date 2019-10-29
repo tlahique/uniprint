@@ -11,18 +11,18 @@
 				"coordenadas": "25.725063, -100.313408",
 				"icon": "home"
 			},{
-				"nombre": "Cafeteria FIME",
-				"descripcion": "La cafeteria oficial de FIME.",
-				"categoria": "Comidas",
-				"coordenadas": "25.72565, -100.31373",
-				"tags": "comidas, cafeteria, burritos, pollo, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas",
+				"nombre": "Biblioteca FIME",
+				"descripcion": "La biblioteca oficial de FIME. La imprenta se encuentra en el segundo piso.",
+				"categoria": "Imprenta",
+				"coordenadas": "25.726230, -100.313700",
+				"tags": "",
 				"icon": "utensils"
 			},{
-				"nombre": "Papeleria FIME",
+				"nombre": "Papelería FIME",
 				"descripcion": "Venta de utensilios escolares universitarios.",
-				"categoria": "Ventas",
+				"categoria": "Papelería",
 				"coordenadas": "25.72549, -100.31343",
-				"tags": "copias, papeleria, utensilios, enmicado, engargolado, impresiones",
+				"tags": "",
 				"icon": "paperclip"
 			}
 		]
@@ -37,18 +37,18 @@
 				"coordenadas": "25.72516, -100.31200",
 				"icon": "home"
 			},{
-				"nombre": "Cafeteria FARQ",
-				"descripcion": "La cafeteria oficial de FARQ.",
-				"categoria": "Comidas",
-				"coordenadas": "25.72544, -100.31118",
-				"tags": "comidas, cafeteria, burritos, pollo, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas",
+				"nombre": "Fax y Copy",
+				"descripcion": "Comúnmente conocida como Pegaso.",
+				"categoria": "Papelería",
+				"coordenadas": "25.725040, -100.312346",
+				"tags": "",
 				"icon": "utensils"
 			},{
-				"nombre": "Papeleria FARQ",
-				"descripcion": "Venta de utensilios escolares universitarios.",
-				"categoria": "Ventas",
-				"coordenadas": "25.72564, -100.31193",
-				"tags": "copias, papeleria, utensilios, enmicado, engargolado, impresiones",
+				"nombre": "Imprenta FARQ",
+				"descripcion": "Ofrecen servicio de imprimir en ploteo.",
+				"categoria": "Imprenta",
+				"coordenadas": "25.725368, -100.311849",
+				"tags": "",
 				"icon": "paperclip"
 			}
 		]
@@ -63,18 +63,11 @@
 				"coordenadas": "25.72728, -100.30913",
 				"icon": "home"
 			},{
-				"nombre": "Cafeteria FACPYA",
-				"descripcion": "La cafeteria oficial de FACPYA.",
-				"categoria": "Comidas",
-				"coordenadas": "25.72760, -100.30955",
-				"tags": "comidas, cafeteria, burritos, pollo, refrescos, agua, coca, soda, desayuno, carne, mesas, servilletas",
-				"icon": "utensils"
-			},{
 				"nombre": "Papeleria FACPYA",
 				"descripcion": "Venta de utensilios escolares universitarios.",
-				"categoria": "Ventas",
+				"categoria": "Papelería",
 				"coordenadas": "25.72774, -100.30922",
-				"tags": "copias, papeleria, utensilios, enmicado, engargolado, impresiones",
+				"tags": "",
 				"icon": "paperclip"
 			}
 		]
