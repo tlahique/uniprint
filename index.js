@@ -13,11 +13,6 @@ L.tileLayer('http://esri.maps.arcgis.com/apps/View/index.html?appid=d6b18a2e774c
 	subdomains: 'abcd',
 }).addTo(map);
 
-//Add shadows to the map
-var OpenMapSurfer_Hillshade = L.tileLayer('https://maps.heigit.org/openmapsurfer/tiles/asterh/webmercator/{z}/{x}/{y}.png', {
-	attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> | Map data  <a href="https://lpdaac.usgs.gov/products/aster_policies">ASTER GDEM</a>, <a href="http://srtm.csi.cgiar.org/">SRTM</a>'
-}).addTo(map);
-
 //Set the map to point at UANL
 map.setView(new L.LatLng(25.72650, -100.31180), 16);
 
