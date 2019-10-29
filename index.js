@@ -58,7 +58,7 @@ map.on('click', function (e) {
 	L.DomEvent.on(startBtn, 'click', function () {
 		control.spliceWaypoints(0, 1, e.latlng);
 		map.removeLayer(startmarker);
-		startmarker = new L.marker(e.latlng, { draggable: 'false', icon: L.AwesomeMarkers.icon({ icon: 'street-view', prefix: 'fa', markerColor: 'darkpurple' }) });
+		startmarker = new L.marker(e.latlng, { draggable: 'false', icon: L.AwesomeMarkers.icon({ icon: 'fas fa-user-circle icon-white', prefix: 'fa', markerColor: 'darkpurple' }) });
 		startmarker
 		startmarker.on('dragend', function (event) {
 			startmarker = event.target;
