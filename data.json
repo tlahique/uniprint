@@ -16,7 +16,7 @@
 				"categoria": "Imprenta",
 				"coordenadas": "25.726230, -100.313700",
 				"tags": "",
-				"icon": "utensils"
+				"icon": "print"
 			},{
 				"nombre": "Papelería FIME",
 				"descripcion": "Venta de utensilios escolares universitarios.",
@@ -42,7 +42,7 @@
 				"categoria": "Papelería",
 				"coordenadas": "25.725040, -100.312346",
 				"tags": "",
-				"icon": "utensils"
+				"icon": "print"
 			},{
 				"nombre": "Imprenta FARQ",
 				"descripcion": "Ofrecen servicio de imprimir en ploteo.",
