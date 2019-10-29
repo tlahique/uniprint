@@ -158,7 +158,7 @@ function json_create_markers(json_array) {
         //let imagen = '<img src="https://www.fime.me/members/dr-freud/albums/varios/2969-el-prometido-starbucks-version-fimena.jpg" class="img-fluid">'
         //SAM CHANGE, removed let imagen
         let descripcion = marker[i].descripcion
-        let info = nombre + imagen + descripcion
+        let info = nombre + descripcion //SAM CHANGE, removed + imagen
 
         var coordenadasArray = marker[i].coordenadas.split(",")
 
