@@ -9,8 +9,8 @@ var map = L.map('map');
 
 //Add the main map, OpenStreeMap Vector Beta
 L.tileLayer('http://esri.maps.arcgis.com/apps/View/index.html?appid=d6b18a2e774c4959ba855f6ac90952a2', {
-	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-	subdomains: 'abcd',
+	attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a>',
+	maxZoom: 18 //not working
 }).addTo(map);
 
 //Set the map to point at UANL
