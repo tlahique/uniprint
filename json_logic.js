@@ -54,14 +54,14 @@ request.onreadystatechange = function (response) {
             classInput.placeholder = "Selecciona";
         } else {
             // An error occured :(
-            facultyInput.placeholder = "Couldn't load datalist options :(";
+            facultyInput.placeholder = "Error :(";
         }
     }
 };
 
 
 // Update the placeholder text.
-facultyInput.placeholder = "cargando opciones";
+facultyInput.placeholder = "Cargando";
 
 // Set up and make the request.
 request.open('GET', 'https://raw.githubusercontent.com/tlahique/uniprint/master/data.json', true);
@@ -94,7 +94,7 @@ function search() {
     // only work for empty forms, what if user types 'ssss'.
     if (facultad == '' || categoria == '') {
         
-    } else if (facultad == "Ciudad Universitaria") {
+    } else if (facultad == "Todas") {
         for (i in window.jsonOptions.Universidad.Facultades) {
             for (k in window.jsonOptions.Universidad.Facultades[i].marcador) {
                 if (categoria == 'Todo') {
@@ -113,7 +113,7 @@ function search() {
     else {
         for (i in window.jsonOptions.Universidad.Facultades) {
             if (window.jsonOptions.Universidad.Facultades[i].nombre == facultad) {
-                if (categoria == 'Todo') {
+                if (categoria == 'Todos') {
                     for (k in window.jsonOptions.Universidad.Facultades[i].marcador) {
                         loopIndex = [i, k]
                         ikArray.push(loopIndex)
