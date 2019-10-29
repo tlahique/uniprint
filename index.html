@@ -34,7 +34,7 @@
 			&ensp;Facultad:&nbsp;
 			</span>
 		
-			<select id="faculty-choice" class="faculty-choice " style="width:200px">
+			<select id="faculty-choice" class="faculty-choice " style="width:200px" onclick="search()">
 			<!--<option value=""></option>-->
 			<option>Ciudad Universitaria</option>
 			</select>
@@ -46,7 +46,7 @@
 			&ensp;Encontrar:&nbsp;
 			</span>
 		
-			<select id="class-choice" class="class-choice" style="width:200px">
+			<select id="class-choice" class="class-choice" style="width:200px" onclick="search()">
 			<!--<option value=""></option>-->
 			<option>Todo</option>
 			</select>
@@ -76,8 +76,6 @@
 	<script src="js/leaflet-routing-machine.js"></script>
 	<script src="js/lrm-graphhopper.js"></script>
 	<script src="index.js"></script>
-	
-search();
 	
 </body>
 </html>
