@@ -9,15 +9,10 @@ var map = L.map('map');
 
 //Add the main map, OpenStreeMap Vector Beta
 L.tileLayer('http://esri.maps.arcgis.com/apps/View/index.html?appid=d6b18a2e774c4959ba855f6ac90952a2', {
-	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-	subdomains: 'abcd',
-	maxZoom: 19
 }).addTo(map);
 
 //Add shadows to the map
 var OpenMapSurfer_Hillshade = L.tileLayer('https://maps.heigit.org/openmapsurfer/tiles/asterh/webmercator/{z}/{x}/{y}.png', {
-	maxZoom: 19,
-	attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> | Map data  <a href="https://lpdaac.usgs.gov/products/aster_policies">ASTER GDEM</a>, <a href="http://srtm.csi.cgiar.org/">SRTM</a>'
 }).addTo(map);
 
 //Set the map to point at UANL
