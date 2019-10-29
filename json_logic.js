@@ -166,18 +166,18 @@ function json_create_markers(json_array) {
 
         // list of colors for icons
         if (marker[i].categoria == 'Papelería') {
-            var jsonColor = 'orange'
-        } else if (marker[i].categoria == 'Imprenta') {
             var jsonColor = 'red'
-        } else if (marker[i].categoria == 'Facultad') { //SAM CHANGE, changed Bebederos to Facultad
+        } else if (marker[i].categoria == 'Imprenta') {
             var jsonColor = 'blue'
+        } else if (marker[i].categoria == 'Facultad') { //SAM CHANGE, changed Bebederos to Facultad
+            var jsonColor = 'orange'
         }
 
         var newMarker = L.marker([coordenadasArray[0], coordenadasArray[1]], { icon: L.AwesomeMarkers.icon({ icon: jsonIcon, prefix: 'fa', markerColor: jsonColor }) }).on('click', onClick).addTo(map);
         newMarker.bindPopup(info)
         popupMarkerArray.addLayer(newMarker)
     }
-    map.addLayer(popupMarkerArray);
+    //map.addLayer(popupMarkerArray);
 }
 
 // when user clicks on marker, update routing destination
