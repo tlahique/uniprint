@@ -72,4 +72,3 @@ map.on('click', function (e) {
 });
 
 L.Routing.errorControl(control).addTo(map);  
-
