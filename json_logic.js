@@ -155,7 +155,7 @@ function json_create_markers(json_array) {
         // https://gis.stackexchange.com/questions/261028/dynamically-create-leaflet-popup-via-javascript-object
         
         let nombre = "<h3>" + marker[i].nombre + "</h3>"
-        let imagen = '<img src="https://www.fime.me/members/dr-freud/albums/varios/2969-el-prometido-starbucks-version-fimena.jpg" class="img-fluid">'
+        //let imagen = '<img src="https://www.fime.me/members/dr-freud/albums/varios/2969-el-prometido-starbucks-version-fimena.jpg" class="img-fluid">'
         let descripcion = marker[i].descripcion
         let info = nombre + imagen + descripcion
 
