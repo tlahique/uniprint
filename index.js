@@ -7,13 +7,9 @@ $(document).ready(function () {
 
 var map = L.map('map');
 
-//Add the main map, OpenStreeMap Vector Beta
-L.tileLayer('http://esri.maps.arcgis.com/apps/View/index.html?appid=d6b18a2e774c4959ba855f6ac90952a2', {
-	attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a>',
-	maxZoom: 18 //not working
+L.tileLayer('https://esri.maps.arcgis.com/apps/View/index.html?appid=d6b18a2e774c4959ba855f6ac90952a2', {
 }).addTo(map);
 
-//Set the map to point at UANL
 map.setView(new L.LatLng(25.72650, -100.31180), 16);
 
 // 'control' previously called 'routingControl'
@@ -31,6 +27,7 @@ var control = L.Routing.control({
 		},
 	})
 }).addTo(map);
+
 
 control.hide();
 
