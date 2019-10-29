@@ -169,7 +169,7 @@ function json_create_markers(json_array) {
             var jsonColor = 'orange'
         } else if (marker[i].categoria == 'Comidas') {
             var jsonColor = 'red'
-        } else if (marker[i].categoria == 'Bebederos') {
+        } else if (marker[i].categoria == 'Facultad') {
             var jsonColor = 'blue'
         } else if (marker[i].categoria == 'Baños') {
             var jsonColor = 'blue'
