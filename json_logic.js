@@ -94,7 +94,7 @@ function search() {
     // only work for empty forms, what if user types 'ssss'.
     if (facultad == '' || categoria == '') {
         
-    } else if (facultad == "Ciudad Universitaria") {
+    } else if (facultad == "Ciudad Universitaria") { //SAM CHANGE, Ciudad Universitaria to Todas
         for (i in window.jsonOptions.Universidad.Facultades) {
             for (k in window.jsonOptions.Universidad.Facultades[i].marcador) {
                 if (categoria == 'Todo') {
@@ -113,7 +113,7 @@ function search() {
     else {
         for (i in window.jsonOptions.Universidad.Facultades) {
             if (window.jsonOptions.Universidad.Facultades[i].nombre == facultad) {
-                if (categoria == 'Todo') {
+                if (categoria == 'Todo') { //SAM CHANGE, Todo to Todos
                     for (k in window.jsonOptions.Universidad.Facultades[i].marcador) {
                         loopIndex = [i, k]
                         ikArray.push(loopIndex)
@@ -156,6 +156,7 @@ function json_create_markers(json_array) {
         
         let nombre = "<h3>" + marker[i].nombre + "</h3>"
         let imagen = '<img src="https://www.fime.me/members/dr-freud/albums/varios/2969-el-prometido-starbucks-version-fimena.jpg" class="img-fluid">'
+        //SAM CHANGE, removed let imagen
         let descripcion = marker[i].descripcion
         let info = nombre + imagen + descripcion
 
@@ -177,10 +178,7 @@ function json_create_markers(json_array) {
         var newMarker = L.marker([coordenadasArray[0], coordenadasArray[1]], { icon: L.AwesomeMarkers.icon({ icon: jsonIcon, prefix: 'fa', markerColor: jsonColor }) }).on('click', onClick).addTo(map);
         newMarker.bindPopup(info)
         popupMarkerArray.addLayer(newMarker)
-
-
     }
-
     map.addLayer(popupMarkerArray);
 }
 
@@ -200,10 +198,10 @@ function onClick(e) {
 }
 
 $('#faculty-choice').select2({
-    placeholder: "Seleccione un lugar"
+    placeholder: "Selecciona2" //SAM CHANGE, changed text to Selecciona2
 });
 $('#class-choice').select2({
-    placeholder: "Seleccione una categoria"
+    placeholder: "Selecciona2" //SAM CHANGE, changed text to Selecciona2
 });
 
 // https://stackoverflow.com/questions/37478727/how-can-i-make-a-browser-display-all-datalist-options-when-a-default-value-is-se
