@@ -177,7 +177,7 @@ function json_create_markers(json_array) {
         newMarker.bindPopup(info)
         popupMarkerArray.addLayer(newMarker)
     }
-    //map.addLayer(popupMarkerArray);
+    map.addLayer(popupMarkerArray);
 }
 
 // when user clicks on marker, update routing destination
