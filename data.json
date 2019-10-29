@@ -42,14 +42,14 @@
 				"categoria": "Papelería",
 				"coordenadas": "25.725040, -100.312346",
 				"tags": "",
-				"icon": "print"
+				"icon": "paperclip"
 			},{
 				"nombre": "Imprenta FARQ",
 				"descripcion": "Ofrecen servicio de imprimir en ploteo.",
 				"categoria": "Imprenta",
 				"coordenadas": "25.725368, -100.311849",
 				"tags": "",
-				"icon": "paperclip"
+				"icon": "print"
 			}
 		]
 	},{
