@@ -9,7 +9,7 @@
 					{
 						"nombre": "Facultad de Ingeniería Mecánica y Eléctrica",
 						"descripcion": "La Facultad de Ingeniería Mecánica y Eléctrica (FIME) es una Institución educativa de nivel superior y pertenece a la Universidad Autónoma de Nuevo León.",
-						"categoria": "",
+						"categoria": "Todos",
 						"coordenadas": "25.725063, -100.313408",
 						"icon": ""
 					},{
@@ -36,7 +36,7 @@
 					{
 						"nombre": "Facultad de Arquitectura",
 						"descripcion": "La Facultad de Arquitectura (FARQ) es una Institución educativa de nivel superior y pertenece a la Universidad Autónoma de Nuevo León.",
-						"categoria": "",
+						"categoria": "Todos",
 						"coordenadas": "25.72516, -100.31200",
 						"icon": ""
 					},{
@@ -63,7 +63,7 @@
 					{
 						"nombre": "Facultad de Contaduría Pública y Administración",
 						"descripcion": "La Facultad de Contaduría Pública y Administración (FACPYA) es una Institución educativa de nivel superior y pertenece a la Universidad Autónoma de Nuevo León.",
-						"categoria": "",
+						"categoria": "Todos",
 						"coordenadas": "25.72728, -100.30913",
 						"icon": ""
 					},{
