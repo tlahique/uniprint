@@ -5,21 +5,21 @@
 		"coordenadas": "25.725063, -100.313408",
 		"marcador": [
 			{
-				"nombre": "Facultad de Ingeniería Mecánica y Eléctrica",
+				"nombre": "FIME",
 				"descripcion": "La Facultad de Ingeniería Mecánica y Eléctrica (FIME) es una Institución educativa de nivel superior y pertenece a la Universidad Autónoma de Nuevo León.",
 				"categoria": "Facultad",
 				"coordenadas": "25.725063, -100.313408",
 				"icon": "home"
 			},{
-				"nombre": "Biblioteca FIME",
-				"descripcion": "La biblioteca oficial de FIME. La imprenta se encuentra en el segundo piso.",
+				"nombre": "Biblioteca 2° piso FIME",
+				"descripcion": "La biblioteca oficial de FIME ofrece una selección amplia de libros. El primer piso cuenta con espacios individuales de trabajo. El segundo piso tiene mesas para trabajo en grupo, y una imprenta. El tercer piso tiene un laboratorio de cómputo y mesas comúnes.\nImpresión B/N: $1.00",
 				"categoria": "Imprenta",
 				"coordenadas": "25.726230, -100.313700",
 				"tags": "",
 				"icon": "print"
 			},{
 				"nombre": "Papelería FIME",
-				"descripcion": "Venta de utensilios escolares universitarios.",
+				"descripcion": "Venta de utensilios escolares universitarios, e imprenta. \nCopias: $1.00\nImpresión Color: $3.00\nImpresión B/N: $1.00\nEngargolado: $20.00",
 				"categoria": "Papelería",
 				"coordenadas": "25.72549, -100.31343",
 				"tags": "",
@@ -27,29 +27,101 @@
 			}
 		]
 	},{
+		"nombre": "FCB",
+		"coordenadas": "25.724449, -100.316371",
+		"marcador": [
+			{
+				"nombre": "FCB",
+				"descripcion": "La Facultad de Ciencias Biológicas (FCB) es una Institución educativa de nivel superior y pertenece a la Universidad Autónoma de Nuevo León. \nCopias: $0.50 \nImpresión Color: $6.00 \nImpresión B/N: $1.50",
+				"categoria": "Facultad",
+				"coordenadas": "25.724449, -100.316371",
+				"icon": "home"
+			}
+
+		]
+	},{
+		"nombre": "FCQ",
+		"coordenadas": "25.724257, -100.315471",
+		"marcador": [
+			{
+				"nombre": "FCQ",
+				"descripcion": "La Facultad de Ciencias Químicas (FCQ) es una Institución educativa de nivel superior y pertenece a la Universidad Autónoma de Nuevo León. \nCopias: $0.50 \nImpresión Color: $6.00 \nImpresión B/N: $2.00",
+				"categoria": "Facultad",
+				"coordenadas": "25.724257, -100.315471",
+				"icon": "home"
+			}
+
+		]
+	},{
+		"nombre": "FIC",
+		"coordenadas": "25.724764, -100.314101",
+		"marcador": [
+			{
+				"nombre": "FIC",
+				"descripcion": "La Facultad de Ingenieria Civil (FIC) es una Institución educativa de nivel superior y pertenece a la Universidad Autónoma de Nuevo León. \nCopias: $1.00 \nImpresión Color: $8.00 \nImpresión B/N: $1.00",
+				"categoria": "Facultad",
+				"coordenadas": "25.724764, -100.314101",
+				"icon": "home"
+			}
+
+		]
+	},{
+		"nombre": "FCFM",
+		"coordenadas": "25.725257, -100.315233",
+		"marcador": [
+			{
+				"nombre": "FCFM",
+				"descripcion": "La Facultad de Ciencias Físico Matemáticas (FCFM) es una Institución educativa de nivel superior y pertenece a la Universidad Autónoma de Nuevo León. \nCopias: $0.30 \nImpresión Color: $6.00 \nImpresión B/N: $3.00",
+				"categoria": "Facultad",
+				"coordenadas": "25.725257, -100.315233",
+				"icon": "home"
+			}
+
+		]
+	},{
+		"nombre": "FOD",
+		"coordenadas": "25.727912, -100.312520",
+		"marcador": [
+			{
+				"nombre": "FOD",
+				"descripcion": "La Facultad de Organización Deportiva (FOD) es una Institución educativa de nivel superior y pertenece a la Universidad Autónoma de Nuevo León. \nCopias: $0.50 \nImpresión Color: $5.00 \nImpresión B/N: $2.00",
+				"categoria": "Facultad",
+				"coordenadas": "25.727912, -100.312520",
+				"icon": "home"
+			}
+
+		]
+	},{
 		"nombre": "FARQ",
 		"coordenadas": "25.72516, -100.31200",
 		"marcador": [
 			{
-				"nombre": "Facultad de Arquitectura",
+				"nombre": "FARQ",
 				"descripcion": "La Facultad de Arquitectura (FARQ) es una Institución educativa de nivel superior y pertenece a la Universidad Autónoma de Nuevo León.",
 				"categoria": "Facultad",
 				"coordenadas": "25.72516, -100.31200",
 				"icon": "home"
 			},{
-				"nombre": "Fax y Copy",
-				"descripcion": "Comúnmente conocida como Pegaso.",
+				"nombre": "Pegaso",
+				"descripcion": "Papelería que está a las afueras de FARQ. \nCopias: $0.50\nImpresión B/N: $1.00\nImpresión Color: $3.00\nImpresión Tabloide: $7.00\nEngargolado: $20.00",
 				"categoria": "Papelería",
 				"coordenadas": "25.725040, -100.312346",
 				"tags": "",
 				"icon": "paperclip"
 			},{
 				"nombre": "Imprenta FARQ",
-				"descripcion": "Ofrecen servicio de imprimir en ploteo.",
+				"descripcion": "Imprenta oficial de FARQ. Está dentro del edificio principal, a un lado del area recreacional conocida como Los Cubos. Ofrecen servicio de ploteo. \nCopias: $0.50 \nImpresión Color: $5.00 \nImpresión B/N: $2.50\nImpresión Ploteo: Variable",
 				"categoria": "Imprenta",
 				"coordenadas": "25.725368, -100.311849",
 				"tags": "",
 				"icon": "print"
+			},{
+				"nombre": "Doña Chope",
+				"descripcion": "Doña Chope ofrece útiles escolares variados, así como materiales especiales que son de utilidad para los estudiantes de FARQ. No cuenta con servicio de imprenta.",
+				"categoria": "Papelería",
+				"coordenadas": "25.725575, -100.311988",
+				"tags": "",
+				"icon": "paperclip"
 			}
 		]
 	},{
@@ -57,19 +129,51 @@
 		"coordenadas": "25.72728, -100.30913",
 		"marcador": [
 			{
-				"nombre": "Facultad de Contaduría Pública y Administración",
+				"nombre": "FACPYA",
 				"descripcion": "La Facultad de Contaduría Pública y Administración (FACPYA) es una Institución educativa de nivel superior y pertenece a la Universidad Autónoma de Nuevo León.",
 				"categoria": "Facultad",
 				"coordenadas": "25.72728, -100.30913",
 				"icon": "home"
 			},{
-				"nombre": "Papeleria FACPYA",
-				"descripcion": "Venta de utensilios escolares universitarios.",
+				"nombre": "Papelería FACPYA",
+				"descripcion": "Venta de utensilios escolares universitarios.  \nCopias: $0.50 \nImpresión Color: $5.00 \nImpresión B/N: $2.00",
 				"categoria": "Papelería",
 				"coordenadas": "25.72774, -100.30922",
 				"tags": "",
 				"icon": "paperclip"
 			}
 		]
+	},{
+		"nombre": "FFYL",
+		"coordenadas": "25.727386, -100.310466",
+		"marcador": [
+			{
+				"nombre": "FFYL",
+				"descripcion": "La Facultad de Filosofía y Letras (FFYL) es una Institución educativa de nivel superior y pertenece a la Universidad Autónoma de Nuevo León. \nCopias: $0.30 \nImpresión Color: $4.00 \nImpresión B/N: $1.50",
+				"categoria": "Facultad",
+				"coordenadas": "25.727386, -100.310466",
+				"icon": "home"
+			}
+
+		]
+	},{
+		"nombre": "Otros",
+		"coordenadas": "",
+		"marcador": [
+			{
+				"nombre": "Librería Universitaria",
+				"descripcion": "La Librería Universitaria ofrece una gran variedad de útiles escolares, libros, y materiales. No ofrece servicio de imprenta.",
+				"categoria": "Papelería",
+				"coordenadas": "25.723848, -100.310778",
+				"icon": "paperclip"
+			},{
+				"nombre": "Biblioteca Capilla Alfonsina",
+				"descripcion": "La Biblioteca Universitaria Capilla Alfonsina es la biblioteca común de toda Ciudad Universitaria. \nCopias: $1.00 \nImpresión B/N: $5.00",
+				"categoria": "Imprenta",
+				"coordenadas": "25.724513, -100.310603",
+				"icon": "print"
+			}
+		]
+
 	}]
 }}
