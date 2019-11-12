@@ -52,7 +52,7 @@ var startmarker = new L.marker([25.72375857, -100.31251645], { draggable: 'false
 var endmarker = new L.marker([25.72864538, -100.31225252], { draggable: 'false' });
 map.on('click', function (e) {
 	var container = L.DomUtil.create('div'),
-		startBtn = button('Empezar desde aqui', container);
+		startBtn = button('Haz click para marcar el inicio de tu ruta. Luego, elige tu destino.', container);
 	L.DomEvent.on(startBtn, 'click', function () {
 		control.spliceWaypoints(0, 1, e.latlng);
 		map.removeLayer(startmarker);
