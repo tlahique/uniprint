@@ -23,7 +23,7 @@ var control = L.Routing.control({
 	routeWhileDragging: false,
 	addWaypoints: false,
 	draggableWaypoints: false,
-	router: L.Routing.graphHopper('3513fe12-dd36-42ad-8090-54069cfb7bb1', {
+	router: L.Routing.graphHopper('7a90079e-b1d3-444d-aa31-f2986bb3a67c', {
 		urlParameters: {
 			vehicle: 'foot'
 		},
